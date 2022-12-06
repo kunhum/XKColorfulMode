@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XKColorfulMode'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of XKColorfulMode.'
+  s.version          = '0.0.1'
+  s.summary          = '灰色模式，但不仅限于灰色'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,14 +21,15 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/kenneth/XKColorfulMode'
+  s.homepage         = 'https://github.com/kunhum/XKColorfulMode'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'kenneth' => 'kunhum@163.com' }
-  s.source           = { :git => 'https://github.com/kenneth/XKColorfulMode.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/kunhum/XKColorfulMode.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
+  s.swift_version = '5'
 
   s.source_files = 'XKColorfulMode/Classes/**/*'
   

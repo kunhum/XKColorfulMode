@@ -1,0 +1,6 @@
+framework module XKColorfulMode {
+  umbrella header "XKColorfulMode-umbrella.h"
+
+  export *
+  module * { export * }
+}

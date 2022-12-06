@@ -1,0 +1,16 @@
+PODS:
+  - XKColorfulMode (0.0.1)
+
+DEPENDENCIES:
+  - XKColorfulMode (from `../`)
+
+EXTERNAL SOURCES:
+  XKColorfulMode:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XKColorfulMode: 64626a3e4cd38475aa75311df8b85adbe3320f17
+
+PODFILE CHECKSUM: d0b4767870fe2456c2fb5f5943ef63d59c632964
+
+COCOAPODS: 1.11.3
