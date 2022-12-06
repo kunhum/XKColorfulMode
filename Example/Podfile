@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'XKColorfulMode_Example' do
+  pod 'XKColorfulMode', :path => '../'
+
+  target 'XKColorfulMode_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
